@@ -1,0 +1,79 @@
+.rightContainer {
+  width: 412px;
+  height: auto;
+}
+.rightWrapper {
+  width: 100%;
+  height: 100%;
+}
+.rightContainerTitle {
+  width: 412px;
+  height: 41px;
+}
+.rightTitleContainerTxt {
+  font-family: "Euclid Circular B";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40.58px;
+  text-align: left;
+}
+
+.descriptionWrapper {
+  width: 412px;
+  height: auto;
+}
+.descriptionTxt {
+  width: 100%;
+  height: auto;
+  font-family: "Euclid Circular B";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.82px;
+  text-align: left;
+}
+.btnPhone {
+  width: 445px;
+  height: 73px;
+}
+.phone {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: 0.5s ease;
+  &:hover {
+    background-color: #ffdf31;
+  }
+}
+.phoneTxt {
+  font-family: "Euclid Circular B";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.43px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .rightContainer,
+  .descriptionWrapper,
+  .btnPhone {
+    width: 346px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .rightContainer {
+    display: flex;
+    width: 690px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+  .descriptionWrapper {
+    width: 690px;
+  }
+  .btnPhone {
+    width: 690px;
+  }
+}

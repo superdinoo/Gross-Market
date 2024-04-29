@@ -1,0 +1,10 @@
+.slick-track {
+  display: flex;
+  gap: 30px;
+}
+
+button.slick-arrow.slick-next {
+  display: none;
+  position: relative;
+  left: 100%;
+}

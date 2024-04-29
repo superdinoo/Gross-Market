@@ -1,0 +1,62 @@
+.unityTwoPagesContainer {
+  display: flex;
+  gap: 250px;
+  margin-left: 50px;
+}
+.btnWrapper {
+  width: 540px;
+}
+.btn,
+.btnGreen {
+  border: none;
+  height: 47px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.settingBtn {
+  font-family: " Euclid Circular B";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.82px;
+  text-align: left;
+  color: black;
+}
+.btnGreen {
+  background-color: #ffdf31;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .unityTwoPagesContainer {
+    margin-left: 8px;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .btnWrapper {
+    width: 346px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .unityTwoPagesContainer {
+    margin-left: 20px;
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .btnWrapper {
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .unityTwoPagesContainer {
+    margin-left: 183px;
+    gap: 133px;
+  }
+}

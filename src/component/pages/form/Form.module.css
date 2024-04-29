@@ -1,0 +1,45 @@
+.title {
+  font-family: "Euclid Circular B";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 66px;
+  text-align: left;
+}
+.titleWrapper {
+  width: 699px;
+  height: 66px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
+  .titleWrapper {
+    margin-left: 8px;
+    width: 346px;
+    margin-bottom: 60px;
+  }
+  .title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 768px;
+    overflow: hidden;
+  }
+  .titleWrapper {
+    width: 570px;
+    margin-bottom: 123px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .titleWrapper {
+    margin-left: 183px;
+  }
+}

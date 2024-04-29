@@ -1,0 +1,143 @@
+.leftAndRighttPath {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 175px;
+}
+.titleWrapper {
+  width: 399px;
+}
+.leftPath,
+.titleWrapper {
+  margin-left: 50px;
+}
+.txtTitle {
+  font-family: "Euclid Circular B";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 66px;
+  text-align: left;
+}
+
+.centerText,
+.bottomText {
+  width: 540px;
+}
+.topText,
+.bottomTxt {
+  font-family: Euclid Circular B;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.82px;
+  text-align: left;
+}
+.nextText {
+  width: 540px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.nextTxt {
+  font-family: "Euclid Circular B";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.75px;
+  text-align: left;
+}
+.line {
+  width: 3px;
+  height: 54px;
+  background-color: #ffdf31;
+}
+
+.btnPhone {
+  width: 445px;
+  height: 73px;
+}
+.phone {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: 0.5s ease;
+  &:hover {
+    background-color: #ffdf31;
+  }
+}
+.phoneTxt {
+  font-family: "Euclid Circular B";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.43px;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: "Euclid Circular B";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40.58px;
+  text-align: left;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .btnPhone {
+    width: 346px;
+  }
+  .titleWrapper,
+  .leftPath,
+  .rightPath {
+    margin-left: 8px;
+  }
+  .titleWrapper,
+  .centerText,
+  .nextText,
+  .bottomText {
+    width: 346px;
+  }
+  .txtTitle {
+    font-size: 48px;
+  }
+  .line {
+    height: 60px;
+  }
+  .leftAndRighttPath {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .btnPhone {
+    width: 690px;
+  }
+  .titleWrapper,
+  .leftPath,
+  .rightPath {
+    margin-left: 20px;
+  }
+  .leftAndRighttPath {
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 40px;
+    width: 690px;
+  }
+  .centerText,
+  .nextText,
+  .bottomText {
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .titleWrapper {
+    margin-left: 183px;
+  }
+  .leftPath {
+    margin-left: 183px;
+  }
+}

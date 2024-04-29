@@ -1,0 +1,114 @@
+.container {
+  width: 1440px;
+}
+
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  height: 90%;
+  overflow: scroll;
+  border-radius: 8px;
+}
+.title {
+  width: 681px;
+}
+
+.txtTitle {
+  font-family: "Euclid Circular B";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 66px;
+  text-align: left;
+}
+
+.oneContainer {
+  width: 950px;
+}
+.oneTitle {
+  width: 540px;
+}
+.txtTitleSetting {
+  font-family: "Euclid Circular B";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.82px;
+  text-align: left;
+  color: black;
+}
+.oneTxt {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.oneTextSetting {
+  font-family: "Euclid Circular B";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: black;
+}
+.hidden {
+  font-family: " Euclid Circular B";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #b3b3b3;
+}
+.cross {
+  cursor: pointer;
+
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cross {
+    right: 40px;
+    top: 33px;
+  }
+  .container {
+    width: 375px;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    margin-left: 8px;
+  }
+  .title {
+    width: 347px;
+  }
+  .txtTitle {
+    font-size: 48px;
+  }
+  .oneContainer,
+  .oneTitle {
+    width: 347px;
+  }
+  .txtTitleSetting {
+    font-size: 18px;
+  }
+  .oneTextSetting {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 768px;
+  }
+  .wrapper {
+    width: 684px;
+  }
+  .title {
+    width: 394px;
+  }
+  .oneContainer {
+    width: 656px;
+  }
+}

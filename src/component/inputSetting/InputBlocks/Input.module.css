@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.wrapperTitl {
+  width: 134px;
+}
+.titleInput,
+.error {
+  font-family: "Euclid Circular B";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.75px;
+  text-align: left;
+  color: black;
+}
+.inputWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.input,
+.sizeInitial,
+.redError {
+  width: 100%;
+  height: 47px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+
+  &:focus {
+    outline: none;
+  }
+}
+.redError {
+  background-color: #ff6666;
+}
+.errorSetting {
+  position: absolute;
+}
+.error {
+  color: #ff6666;
+}
+.sizeInitial {
+  vertical-align: top;
+  height: 124px;
+}
+.input::placeholder {
+  text-indent: 10px;
+  font-family: " Euclid Circular B";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.82px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.containerGreen {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.grennSetting {
+  position: absolute;
+  left: 140px;
+}

@@ -1,0 +1,126 @@
+.fourthInputBlocksContainer {
+  width: 540px;
+}
+.captchsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cap,
+.txtRightCaptchs,
+.textBox,
+.txt {
+  font-family: "Euclid Circular B";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.75px;
+  text-align: left;
+}
+.cap {
+  margin-bottom: 0;
+}
+.captchsLeft {
+  width: 255px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+.captchaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.pathCaptcha {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.captchsRight {
+  width: 255px;
+}
+.txtRightCaptchs {
+  color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+.capchaPath {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+}
+.processingWrapper {
+  width: 540px;
+}
+.containerProcessing {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.txtBoxContainer {
+  width: 407px;
+}
+.textBox {
+  width: 100%;
+}
+.processingWrapper {
+  width: 540px;
+}
+.containerProcessing {
+  width: 100%;
+}
+.box {
+  width: 24px;
+  height: 24px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btnWrapper {
+  width: 540px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .capchaPath {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 17px;
+  }
+  .captchsLeft,
+  .captchsRight {
+    width: 346px;
+  }
+  .cap {
+    margin-bottom: 20px;
+  }
+  .processingWrapper {
+    width: 346px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .fourthInputBlocksContainer {
+    width: 690px;
+  }
+  .captchsLeft,
+  .captchsRight {
+    width: 330px;
+  }
+  .cap {
+    margin-bottom: 20px;
+  }
+  .processingWrapper {
+    width: 690px;
+  }
+  .txtBoxContainer {
+    width: 654px;
+  }
+}
